@@ -1,0 +1,172 @@
+/* ---------------------------
+Fonts Google
+------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Coiny&family=Concert+One&family=Courgette&family=Dancing+Script&family=Devonshire&family=Great+Vibes&family=Lilita+One&family=Nunito&family=Patua+One&family=Roboto+Slab&display=swap');
+h1,
+h2 {
+  font-family: 'Coiny', serif;
+}
+.navbar {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+}
+.navbar-brand {
+  font-family: 'Concert One', cursive;
+  color: #2ac2ab !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.nav-link {
+  font-family: 'Nunito', cursive;
+  transition: 0.4s ease;
+  -webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  -ms-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+  font-weight: 600;
+}
+@media (min-width: 992px) {
+  .nav-link {
+    margin-left: 1rem;
+  }
+}
+.nav-link:hover {
+  color: #2ac2ab !important;
+}
+.nav-link.active {
+  color: #27d6bc !important;
+}
+section {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+.text-lightGreen {
+  color: #2ac2ab !important;
+}
+.btn-lightGreen {
+  background-color: #2ac2ab !important;
+  border-color: #2ac2ab !important;
+  color: #fff;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  width: 100%;
+  max-width: 40%;
+}
+.btn-lightGreen-projects {
+  background-color: #2ac2ab !important;
+  border-color: #2ac2ab !important;
+  color: #fff;
+}
+.jumbotron img {
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.social-media {
+  border: 2px solid #2ac2ab;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #2ac2ab;
+}
+.social-media:hover {
+  background-color: #2ac2ab;
+  color: #fff;
+}
+.bg-orange {
+  background: #f77f00;
+}
+.bg-primary {
+  background: #0d6efd;
+}
+.bg-yellow {
+  background: #f7c500;
+}
+.bg-lightpurple {
+  background: #7678ed;
+}
+.bg-mysql {
+  background: #003049;
+}
+.bg-sass {
+  background: #c13584;
+}
+.bg-react {
+  background: #61dafb;
+}
+.bg-bootstrap {
+  background: #571089;
+}
+.text-bootstrap {
+  color: #571089;
+}
+.bg-jQuery {
+  background: #001d3d;
+}
+.text-shadow-lightgreen {
+  text-shadow: 1px 1px 0px #2ac2ab;
+}
+section.portfolio {
+  background: #edf2fb;
+}
+section.about {
+  background: #edf2fb;
+}
+/* section.contact {
+  background: #edf2fb;
+} */
+section.services {
+  padding-bottom: 3rem;
+  background: #011326;
+  color: white;
+}
+section.services p {
+  font-family: 'Nunito', sans-serif;
+}
+.bg-lightGreen {
+  background: #2ac2ab;
+}
+.text-shadow {
+  text-shadow: 1px 1px 1px #000;
+}
+.form-control {
+  /* background: rgba(198, 210, 237, 0.5); */
+  background: #e1e5f2;
+  color: rgb(0, 0, 0);
+}
+.form-control:focus {
+  /* background: rgba(198, 210, 237, 0.5); */
+  background: #e1e5f2;
+  color: rgb(0, 0, 0);
+}
+::placeholder {
+  color: #000;
+}
+section.footer {
+  background: #011326;
+}
+a.link-footer {
+  color: rgba(220, 220, 220, 0.6);
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  transition: 0.4s ease;
+  -webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  -ms-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+}
+a.link-footer:hover {
+  color: #2ac2ab;
+}
+.concert-One-font {
+  font-family: 'Concert One', cursive;
+}
+.nunito-font {
+  font-family: 'Nunito', sans-serif;
+}
+.card-text {
+  font-family: 'Nunito', sans-serif;
+}
